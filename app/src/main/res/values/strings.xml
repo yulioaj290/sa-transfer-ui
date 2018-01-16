@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">SATransferUI</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="setting_activate">Activar App</string>
+    <string name="setting_configure">Configurar clave</string>
+    <string name="setting_phone">Configurar número de móvil</string>
+    <string name="setting_help">Ayuda</string>
+    <string name="setting_about">Acerca de</string>
+    <string name="share_settings">Compartir</string>
+    <string name="saldo">Saldo</string>
+    <string name="sharethis">Compartir</string>
+    <string name="txtContacto">Beneficiario:</string>
+    <string name="txtMonto">Monto a transferir:</string>
+    <string name="txtClaveActual">Clave actual:</string>
+    <string name="txtClaveNueva">Clave nueva:</string>
+    <string name="txtClaveRepetir">Repetir clave nueva:</string>
+    <string name="btnTransferir">Transferir</string>
+    <string name="btnCambiarClave">Cambiar clave</string>
+    <string name="btnHelp">Ayuda</string>
+    <string name="hrTranferir">TRANSFERENCIA DE SALDO</string>
+    <string name="hrClave">CAMBIO DE CLAVE</string>
+    <string name="detalles">Detalles del Beneficiario:</string>
+    <string name="nombreCt">NOMBRE:</string>
+    <string name="numeroCt">NÚMERO:</string>
+    <string name="emailCt">E-MAIL:</string>
+    <string name="nombreDesc">Nombre del contacto</string>
+    <string name="numeroDesc">5#######</string>
+    <string name="title_activity_activate">Activate</string>
+    <string name="claveDesc">####</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="txtNombreApp">SA Transfer User Interface</string>
+    <string name="btnActivate">Activar aplicación</string>
+    <string name="btnClose">Cerrar</string>
+    <string name="txtCodigo">Codigo de activación:</string>
+    <string name="txtCaracteristicas">Disfrute sin límites todas las funcionalidades que le ofrecemos...</string>
+    <string name="btnSolicitarCod">Solicitar Código Ahora</string>
+    <string name="title_activity_presentation">Presentation</string>
+    <string name="title_activity_presentacion">Presentacion</string>
+    <string name="title_activity_show_welcome">ShowWelcome</string>
+    <string name="title_activity_show_transfer">ShowTransfer</string>
+    <string name="title_activity_show_clave">ShowClave</string>
+    <string name="title_activity_show_services">ShowServices</string>
+
+    <string name="btnNextShow">Adelante</string>
+    <string name="btnEndShow">Terminar</string>
+
+    <string name="title_activity_show_configure_clave">ShowConfigureClave</string>
+    <string name="txtSubtitleConfigureClave">Configure el servicio de transferencia de saldo</string>
+    <string name="txtExplainConfigureClave">SA Transfer User Interface necesita su clave del servicio de transferencia de saldo que ofrece ETECSA para funcionar correctamente. Si no desea configurarlo ahora, lo podrá hacer más tarde desde el menú contextual. \n\n Si aun no ha cambiado su clave por otra vía ponga la clave por defecto [1234].. </string>
+    <string name="txtNoteConfigureClave">Nota:</string>
+    <string name="txtNoteTextConfigureClave">Recuerde que ETECSA siempre le pedirá una confirmación de sus transferencias de saldo. De esta forma se garantiza que esta App no utilice su clave sin su consentimiento.</string>
+    <string name="txtClaveConfigure">Clave del servicio:</string>
+    <string name="btnConfigure">Configurar</string>
+    <string name="title_activity_configure_clave">ConfigureClave</string>
+
+    <string name="txtExplain2ConfigureClave">SA Transfer User Interface necesita su clave del servicio de transferencia de saldo que ofrece ETECSA para funcionar correctamente. Si no desea configurarlo ahora, lo podrá hacer más tarde. \n\n Si aun no ha cambiado su clave por otra vía ponga la clave por defecto [1234]. </string>
+    <string name="txtExplain2Configured">Ud. ya ha configurado su clave del servicio de transferencia de saldo. \n\n Si experimenta problemas con el funcionamiento de su clave, desinstale esta App completamente y vuelva a instalarla, esto deberá solucionar los problemas.</string>
+
+    <string name="title_activity_locker">Locker</string>
+    <string name="txtLockerClave">Clave:</string>
+    <string name="btnLockerClave">Aceptar</string>
+
+    <string name="title_activity_help_transfer">HelpTransfer</string>
+    <string name="help_title">AYUDA</string>
+    <string name="help_transfer_contact_button">Botón de \nseleccionar contacto</string>
+    <string name="help_transfer_contact_button_desc">Presione este botón para seleccionar el contacto de su teléfono al que desea realizar una transferencia de saldo. \n\nPara mayor claridad, este botón mostrará la foto del contacto seleccionado en caso de que posea alguna.</string>
+    <string name="help_transfer_contact_name">Nombre del contacto</string>
+    <string name="help_transfer_contact_name_desc">En este texto se mostrará el nombre del contacto seleccionado.</string>
+    <string name="help_transfer_contact_phone_desc">En este cuadro de texto aparecerá el número de teléfono del contacto seleccionado. \n\nTambién podrá introducir el número de forma directa, para ocasiones en que el beneficiario no esté registrado en su movil.</string>
+    <string name="help_transfer_monto">Monto a transferir:</string>
+    <string name="help_transfer_monto_desc">En este cuadro de texto debe escribir la cantidad de dinero a transferir. \n\nDe momento solo puede escribir cantidades enteras (sin centavos) entre 1 y 2999 CUC.</string>
+
+    <string name="title_activity_help_services">HelpServices</string>
+    <string name="help_services_99_title">Asterisco 99</string>
+    <string name="help_services_99_desc">Llamada de cobro revertido entre lineas prepago de CUBACEL (*99)</string>
+    <string name="help_services_saldo_title">Saldo</string>
+    <string name="help_services_saldo_desc">Consulta de saldo y tiempo de vida de la línea móvil (*222#)</string>
+    <string name="help_services_charge_title">Recarga de saldo</string>
+    <string name="help_services_charge_desc">Recarga de saldo mediante tarjetas de recarga (*662#)</string>
+    <string name="help_services_saldo_voice_title">Menú detallado</string>
+    <string name="help_services_saldo_voice_desc">Menú detallado para consultar saldo y otros datos de la línea móvil (*666)</string>
+    <string name="help_services_incognito_title">Llamada incógnita</string>
+    <string name="help_services_incognito_desc">Llamada ocultando su número de teléfono (#31#)</string>
+    <string name="help_services_cliente_title">Atención al cliente</string>
+    <string name="help_services_cliente_desc">Servicio de CUBACEL para atención al cliente (*2266)</string>
+    <string name="help_services_bombero_title">Bomberos</string>
+    <string name="help_services_bombero_desc">Número de emergencia de Bomberos (105)</string>
+    <string name="help_services_pnr_title">PNR</string>
+    <string name="help_services_pnr_desc">Número de emergencia de Policia Nacional (106)</string>
+    <string name="help_services_info_title">Información</string>
+    <string name="help_services_info_desc">Servicio de información de abonados de ETECSA (113)</string>
+
+    <string name="title_activity_help">Help</string>
+    <string name="help_transfer_tab_desc">En esta pestaña Ud. puede realizar transferencias de saldo de forma rápida y fácil. \n\nLa búsqueda y selección del beneficiario entre sus contactos le proporciona comodidad y rapidez.</string>
+    <string name="help_clave_tab_desc">En esta pestaña Ud. puede cambiar su clave del servicio de transferencia de saldo de forma rápida y segura.</string>
+    <string name="help_services_tab_desc">En esta pestaña Ud. puede utilizar de forma directa diversos servicios útiles que ofrece ETECSA para la comodidad del usuario. \n\nSe ofrecen además algunos números de emergencia que pueden ser de utilidad en determinadas situaciones.</string>
+    <string name="help_setting_desc">En esta opción del menú de la App, Ud. puede configurar los parámetros correspondientes a la protección del servicio, usando la misma clave del servicio de transferencia de saldo. \n\nAdemás de especificar si desea visualizar la introducción publicitaria de la App al iniciarla.</string>
+    <string name="help_activate_desc">En esta opción del menú de la App, Ud. puede introducir su código de activación del servicio de transferencia de saldo. \n\nEn caso de no poseer un código de activación Ud. podrá solicitarlo.</string>
+    <string name="help_configure_desc">En esta opción del menú de la App, Ud. puede configurar su clave del servicio de transferencia de saldo para que la App la utilice en sus operaciones. \n\nRecuerde que esta App no efectuará operaciones con su clave sin su consentimiento dado que ETECSA siempre pide una confirmación de sus acciones.</string>
+
+    <string name="title_activity_about">ACERCA DE ...</string>
+    <string name="about_title">SA Transfer User Interface 1.0</string>
+    <string name="about_explain">App para realizar transferencias de saldo entre lineas prepago de CUBACEL \n\nHáganos llegar su opinión.</string>
+    <string name="about_email">Email:</string>
+    <string name="about_email_url">surfacesoft15@gmail.com</string>
+    <string name="about_rights">Copyright 2015 SurfaceSoft \nAll Rights Reserved</string>
+
+    <string name="title_activity_configure_phone_number">ConfigurePhoneNumber</string>
+    <string name="txtExplainConfigurePhone">SA Transfer User Interface no puede identificar su número de linea móvil, el cual se necesita para configurar el servicio de transferencia de saldo. \n\nPor favor, introduzca su número de móvil. \n\nIntroduzca solo los 8 dígitos de su número de móvil (sin +53, ni ningún otro prefijo). Recuerde que este debe comenzar con 5, [Ejemplo: 5#######].</string>
+    <string name="txtExplain2ConfigurePhone">SA Transfer User Interface ya posee su número de linea móvil. \n\nSi Ud. ha detectado algún mal funcionamiento o simplemente desea verificar que la App posea su número. \nPor favor, introduzca solo los 8 dígitos de su número de móvil (sin +53, ni ningún otro prefijo). Recuerde que este debe comenzar con 5, [Ejemplo: 5#######].</string>
+    <string name="txtNoteTextConfigurePhone">La aplicación podría funcionar de forma incorrecta si no posee su número de móvil.</string>
+    <string name="txtPhoneConfigure">Número de móvil:</string>
+
+</resources>

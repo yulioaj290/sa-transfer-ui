@@ -1,0 +1,34 @@
+<resources>
+    <string name="title_activity_settings">Opciones</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <!-- Opciones de Transferencia de saldo -->
+    <string name="pref_header_transfer">Transferencia de saldo</string>
+
+    <string name="pref_title_remember_clave">Recordar clave</string>
+    <string name="pref_desc_remember_clave">Recordar y almacenar la clave de transferencia de saldo</string>
+
+    <string name="button_accept">Aceptar</string>
+    <string name="button_cancel">Cancelar</string>
+
+    <string name="pref_title_apply_protection">Aplicar protección</string>
+    <string-array name="pref_list_apply_protection">
+        <item>Al iniciar la aplicación</item>
+        <item>Al realizar transferencias</item>
+        <item>Nunca</item>
+    </string-array>
+    <string-array name="pref_values_apply_protection">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+    </string-array>
+
+    <!-- Opciones de Presentacion -->
+    <string name="pref_header_presentacion">Presentación</string>
+
+    <string name="pref_title_show_introduction">Mostrar introducción</string>
+    <string name="pref_desc_show_introduction">Mostrar introducción al iniciar la aplicación</string>
+
+</resources>

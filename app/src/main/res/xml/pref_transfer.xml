@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_transfer" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref_remember_clave"
+        android:summary="@string/pref_desc_remember_clave"
+        android:title="@string/pref_title_remember_clave" />
+
+    <ListPreference
+        android:defaultValue="0"
+        android:dependency="pref_remember_clave"
+        android:entries="@array/pref_list_apply_protection"
+        android:entryValues="@array/pref_values_apply_protection"
+        android:key="pref_apply_protection"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_apply_protection" />
+
+</PreferenceScreen>
